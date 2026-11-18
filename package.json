@@ -1,9 +1,9 @@
 {
-  "name": "@rljson/cars-master",
+  "name": "@cars-world/cars-master",
   "version": "0.1.0",
   "description": "Master data runtime of the cars example app",
-  "homepage": "https://github.com/rljson/cars-master",
-  "bugs": "https://github.com/rljson/cars-master/issues",
+  "homepage": "https://github.com/cars-world/cars-master",
+  "bugs": "https://github.com/cars-world/cars-master/issues",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rljson/cars-master.git"
+    "url": "git+https://github.com/cars-world/cars-master.git"
   },
   "main": "dist/cars-master.js",
   "types": "dist/index.d.ts",

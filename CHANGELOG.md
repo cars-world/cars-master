@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Move the repository to the GitHub organization `cars-world` and
+  rename the package to `@cars-world/cars-master`
 - Rename the package to `@rljson/cars-master`: `CarsMasterRuntime` is
   now `CarsMaster`, `carsMasterRuntimeVersion` is `carsMasterVersion`,
   and the build writes `dist/cars-master.js`, which the container starts
