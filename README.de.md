@@ -6,11 +6,11 @@ Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
 -->
 
-# @rljson/cars-master
+# @cars-world/cars-master
 
 [English](README.md) | Deutsch
 
-[![CI](https://github.com/rljson/cars-master/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/rljson/cars-master/actions/workflows/quick_check.yaml)
+[![CI](https://github.com/cars-world/cars-master/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/cars-world/cars-master/actions/workflows/quick_check.yaml)
 
 Stammdaten-Runtime der cars-Beispiel-App.
 
@@ -27,13 +27,13 @@ Das Paket ist privat und wird nicht auf npm veröffentlicht. Abhängig
 macht man sich von einer getaggten Version seines Git-Repos:
 
 ```bash
-pnpm add git+ssh://git@github.com/rljson/cars-master.git#semver:^0.0.1
+pnpm add git+ssh://git@github.com/cars-world/cars-master.git#semver:^0.0.1
 ```
 
 ## Verwendung
 
 ```ts
-import { hello } from '@rljson/cars-master';
+import { hello } from '@cars-world/cars-master';
 
 console.log(hello());
 ```
@@ -47,7 +47,7 @@ Hello from cars-master
 Den Server starten:
 
 ```ts
-import { start } from '@rljson/cars-master';
+import { start } from '@cars-world/cars-master';
 
 await start({ PORT: '3000' });
 ```

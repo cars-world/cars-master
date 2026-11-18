@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 ## Motivation
 
 - Das Repo heißt `cars-master`, das Package hieß
-  `@rljson/cars-master-runtime`: eine Sache, zwei Namen
+  `@cars-world/cars-master-runtime`: eine Sache, zwei Namen
 - Die Trennung in Core- und Runtime-Packages, aus der die Endung stammt,
   gibt es nicht mehr, also sagt die Endung nichts mehr
 
@@ -25,7 +25,7 @@ found in the LICENSE file in the root of this package.
 
 ## Umsetzung
 
-- `package.json` nennt `@rljson/cars-master`, mit Homepage, Issues und
+- `package.json` nennt `@cars-world/cars-master`, mit Homepage, Issues und
   Repository-URL des Repos
 - vite leitet das Bundle aus dem Package-Namen ab, also schreibt der Build
   `dist/cars-master.js`; das Dockerfile startet diese Datei

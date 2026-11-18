@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 ## Motivation
 
 - The repo is called `cars-master`, the package was called
-  `@rljson/cars-master-runtime`: one thing, two names
+  `@cars-world/cars-master-runtime`: one thing, two names
 - The split into core and runtime packages the suffix stems from no
   longer exists, so the suffix says nothing any more
 
@@ -24,7 +24,7 @@ found in the LICENSE file in the root of this package.
 
 ## Implementation
 
-- `package.json` names `@rljson/cars-master`, with homepage, issues and
+- `package.json` names `@cars-world/cars-master`, with homepage, issues and
   repository URL of the repo
 - vite derives the bundle from the package name, so the build writes
   `dist/cars-master.js`; the Dockerfile starts that file
